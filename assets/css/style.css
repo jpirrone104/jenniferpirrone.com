@@ -1,0 +1,150 @@
+body, html{
+    height: 100%; }
+    
+.parallax { 
+/* The image used */
+background-image: url("../images/Phili.jpg");
+
+/* Set a specific height */
+height: 100%; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: transparent;
+}
+.parallax1 { 
+/* The image used */
+background-image: url("../images/Phili.jpg");
+
+/* Set a specific height */
+height: 100%; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: transparent;
+}
+body {
+
+font-family: 'Droid-sans', sans-serif;
+color: white;
+background-color: transparent;
+/* background-image: url("./img/bcg6.jpg"); */
+background-size: cover;
+
+}
+#page1, #page3 #page4{
+    height: 1000px;
+    padding-top: 21%;
+    margin-bottom: 0px;
+
+}
+#page2 {
+    height: 1000px;
+    padding-top: 10%;
+    padding-bottom: 25px;
+    background-color: white;
+    color: #78786F;
+}
+#nav {
+    position: fixed;
+    z-index: 500;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+
+
+}
+li {
+float: left;
+border: 1px solid #78786F;
+background-color: #78786F;
+
+}
+li a {
+display: block;
+text-decoration: none;
+padding: 5px 15px;
+color: white;
+
+
+}
+li a:hover {
+text-decoration: none;
+color: #78786F;
+background-color: white;
+}
+
+.container h1 {
+font-size: 48px;
+
+
+}
+.container span {
+font-size: 24px;
+}
+.container p {
+font-size: 18px;
+}
+.container p:nth-child(3) {
+margin-top: 30px;
+}
+#page1 .container a {
+text-decoration: none;
+color: white;
+font-size: 18px;
+border: 1px solid #78786F;
+background-color: #78786F;
+padding: 5px;
+}
+#page1 .container a:hover {
+text-decoration: none;
+color: #78786F;
+background-color: white;
+}
+
+#page2 h1 {
+
+padding: 60px 0px 0px 0px;
+
+}
+#page3 .row {
+margin-top: 30px;
+padding-top: 20px;
+margin-bottom: 30px;
+}
+img {
+margin: 15px;
+}
+
+form {
+padding-top: 5%;
+font-size: 20px;
+font-family: 'Droid-sans', sans-serif;
+}
+input {
+width: 100%;
+}
+textarea {
+width: 100%;
+}
+input[type=submit] {
+color: white;
+background-color: #78786F;
+}
+.footer {
+background-color: transparent;
+margin-top: 0px;
+
+}
+/* .footer img {
+padding-top: px;
+
+} */
